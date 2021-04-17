@@ -1,5 +1,5 @@
-# detectmalaria
-Classify the microscopy Images into Malaria and No_Malaria.
+# Detect Malaria
+Classify the microscopy Images into Malaria and No_Malaria using Tensorflow2.X
 
 
 
@@ -54,7 +54,7 @@ Each image is of 40x40 resolution.
 ## Sample Images
 
 <p align="center">
-  <img src="/images/sample.png" width=70% height=70% >
+  <img src="/images/sample.png" width=50% height=50% >
 </p> 
 
 ## Further Improvements
