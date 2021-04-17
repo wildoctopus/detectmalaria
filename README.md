@@ -46,6 +46,11 @@ Classify the microscopy Images into Malaria and No_Malaria.
     Non-trainable params: 0
     _________________________________________________________________
 
+## Dataset
+
+Dataset contains two classes (Malaria, Nomalaria) with a total of 5493(Class Malaria) +7258(Class Nomalaria) RGB Images. 
+Each image is of 40x40 resolution.
+
 ## Sample Images
 
 <p align="center">
