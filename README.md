@@ -57,6 +57,14 @@ Each image is of 40x40 resolution.
   <img src="/images/sample.png" width=50% height=50% >
 </p> 
 
+
+## Model Performance
+
+TrainTest Accuracy             |  TrainTest Loss
+:-------------------------:|:-------------------------:
+![]('/images/traintestacc.png')  |  ![]('/images/traintestloss.png')
+
+
 ## Further Improvements
 
 1. **Hyper-parameter Tuning** : Hyperparameters like batch_size, learning_rate, etc can be tested with different values to result into more optimal model.
