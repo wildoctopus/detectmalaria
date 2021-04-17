@@ -62,9 +62,9 @@ Each image is of 40x40 resolution.
 
 TrainTest Accuracy             |  TrainTest Loss
 :-------------------------:|:-------------------------:
-<p align="center">
+<p float="left">
   <img src="/images/traintestacc.png" width=50% height=50% >
-</p>   |  <p align="center">
+</p>   |  <p float="right">
   <img src="/images/traintestloss.png" width=50% height=50% >
 </p> 
 
