@@ -45,3 +45,18 @@ Classify the microscopy Images into Malaria and No_Malaria.
     Trainable params: 268,021
     Non-trainable params: 0
     _________________________________________________________________
+
+## Sample Images
+
+<p align="center">
+  <img src="/images/sample.png" width=70% height=70% >
+</p> 
+
+## Further Improvements
+
+1. **Hyper-parameter Tuning** : Hyperparameters like batch_size, learning_rate, etc can be tested with different values to result into more optimal model.
+2. **Data Augmentation** : It can be seen in the image samples that, Images having the parasites are like dark spot in center. So data augmentation techniques like transforming brightness, hue or contrast can be used to enhance the dark spot and helps in improving model performance.
+3. **Deeper Model** : While experimenting, I found that deeper network gives more better results. So more conv layers can be added. Deeper the network, more coarse features it will extract. Ofcourse a balance should be there to not overfit the model. As complex model are more prone to overfit.
+4. **Features Concatenation** : Extracted features from different pretrained network like ResNet, VGG16 or InceptionNetV3, can be concatenated to caputure more useful details in features, that possibly be missing in one set of features. Several successful reasearch has already been done in this area, for ref - [Biomedical image classification based on a feature concatenation and ensemble of deep CNNs](https://www.researchgate.net/publication/332153420_Biomedical_image_classification_based_on_a_feature_concatenation_and_ensemble_of_deep_CNNs)
+5. **Use of Advanced Deep Learning Models like RetinaNet, UNet or MaskRCNN** : Advanced models like RetinaNet are build on top Feature Pyramid Network, which makes them applicable to small scale images and **"Skip-Connection/Lateral Concatenation"** in there network architecture makes it more robust towards classificatio and regression. These models proved to be successfull in obejct detection and localization.
+
