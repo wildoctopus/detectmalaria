@@ -60,10 +60,17 @@ Each image is of 40x40 resolution.
 
 ## Model Performance
 
-<p float="left">
-  <img src="/images/traintestacc.png" width=50% height=50% >
-</p> <p float="right">
-  <img src="/images/traintestloss.png" width=50% height=50% >
+<p align="center">
+  <img src="/images/traintestacc.png" width=70% height=70% >
+</p> 
+<p align="center">
+  <img src="/images/traintestloss.png" width=70% height=70% >
+</p> 
+<p align="center">
+  <img src="/images/recall.png" width=70% height=70% >
+</p> 
+<p align="center">
+  <img src="/images/precision.png" width=70% height=70% >
 </p> 
 
 
